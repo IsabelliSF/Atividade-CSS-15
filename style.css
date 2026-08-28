@@ -6,12 +6,15 @@ body {
     height: 70px;
     background-color: rgb(162, 248, 188);
     margin: 5px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    text-box:  center;
     font-family: "Alumni Sans", sans-serif;
     font-optical-sizing: auto;
     font-size: 25px;
     font-style: normal;
+    display: flex;
+    
 }
  .container {
     display: flex;
