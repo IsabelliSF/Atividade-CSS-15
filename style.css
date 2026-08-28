@@ -1,19 +1,120 @@
-body{
-    background-color:rgb(255, 255, 255);
+body {
+    background-color: pink ;
+}
+.box {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(162, 248, 188);
+    margin: 5px;
+    text-align: center;
+    text-box:  center;
+    font-family: "Alumni Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-style: normal;
+}
+ .container {
+    display: flex;
+    width: 900px;
+    height: 900px;
+}
+.linha1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.container {
+   display: flex;
+   width: 500px;
+   height: 500px;
+}
+
+.linha2 {
+    display: flex;
+    justify-content: center;
+}
+.container {
+   display: flex;
+   width: 500px;
+   height: 500px;
+}
+
+.linha3 {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .container {
+   display: flex;
+   width: 500px;
+   height: 500px;
+}
+.linha4 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-color:pink;
-    width: 500px;
-    height: 500px;
+    justify-content: space-between;
+}
+.container {
+display: flex;
+   width: 500px;
+   height: 500px;
+}
+.linha5 {
+    display: flex;
+    justify-content: space-around;
 }
 
-.box {
-    background-color:rgb(187, 241, 228);
-    width: 50px;
-    height: 50px;
+.container {
+display: flex;
+   width: 500px;
+   height: 500px;
 }
+.linha6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+display: flex;
+   width: 500px;
+   height: 500px;
+}
+.linha7 {
+    display: flex;
+    justify-content: center;
+}
+.container {
+   display: flex;
+   width: 500px;
+   height: 500px;
+}
+.linha8 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    
+}
+
+.container {
+display: flex;
+   width: 500px;
+   height: 500px;
+}
+.linha9 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+   display: flex;
+   width: 500px;
+   height: 500px;
+}
+.linha10 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer{
+    align-items: flex-end; 
+}
+
